@@ -1,4 +1,4 @@
-function NumText(string){
+/*function NumText(string){
     var out = '';
     var filtro = 'abcdefghijklmnñopqrstuvwxyz " "' ;
 	
@@ -6,7 +6,7 @@ function NumText(string){
        if (filtro.indexOf(string.charAt(i)) != -1); 
 	     out += string.charAt(i);
     return out;
-}
+}*/
 
 
 const textArea = document.querySelector(".input");

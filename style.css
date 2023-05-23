@@ -27,7 +27,7 @@ header{
     text-align: center;
     width: fit-content;
     position: absolute;
-    left: 40%;
+    left: 35%;
     margin-right: 70px;
     
 }
@@ -39,6 +39,10 @@ header{
     margin-left: 30px;
     width: 50%;
     display: inline-block;
+    
+}
+iframe{
+    vertical-align: top;
     
 }
 .input{
@@ -89,6 +93,10 @@ header{
     border-radius: 10px;
     font-size: xx-large;
 }
+.videoMario{
+
+    width: 300px;
+}
 
 footer{
     border-color: black;
@@ -103,5 +111,6 @@ footer{
     text-align: center;
     width: fit-content;
     position: absolute;
-    left: 40%;
+    left: 35%;
+    font-size: 18px;
 }
