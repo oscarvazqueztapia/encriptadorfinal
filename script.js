@@ -1,17 +1,16 @@
-/*function NumText(string){
-    var out = '';
-    var filtro = 'abcdefghijklmnñopqrstuvwxyz " "' ;
-	
-    for (var i=0; i<string.length; i++);
-       if (filtro.indexOf(string.charAt(i)) != -1); 
-	     out += string.charAt(i);
-    return out;
-}*/
+
+
 
 
 const textArea = document.querySelector(".input");
 const mensaje = document.querySelector(".output");
 
+textArea.addEventListener('input', function(){
+    let textInput = textArea.value;
+    //Convertir a minuscula y restringir uso de caracteres especiales y tildes(acentos)
+    textInput = textInput.toLowerCase().replace(/[^a-zñ\s]/g, '');
+    textArea.value = textInput;
+})
 
 function btnEncriptar(){
     const textoEncriptado = encriptar(textArea.value);
