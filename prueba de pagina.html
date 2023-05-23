@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <title>pagina de prueba</title>
+</head>
+
+<body>
+    <header>
+        <img class = "logo" src="Screenshot_20230511-210543~2.png" alt="logo alura">
+        <div class="encabezado">
+            <h1>Alura conoce a Mario Bros.</h1>
+        </div>
+        <img class = "alura" src="Logo-2.png" alt="logo alura">
+    </header>
+    <main>
+        <div class="cajasDeTexto">
+            <textarea class="input" cols="40" rows="10" type="text" value="" onkeyup ="this.value=NumText(this.value)" placeholder="ingrese su texto en esta area" style="height: 401px; width: 527px;"></textarea>
+            <textarea class="output" cols="40" rows="10" style="height: 398px; width: 254px;"></textarea> 
+            <div>solo letras minusculas,no numeros,no simbolos</div>
+            <div>no preiones la tecla CapsLock</div>
+        </div>
+        <div class="botones">
+            <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            <button class="copiar" onclick="copy()">Copiar</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p class="rodapie">&#169;2023 realizada por oscar vazquez</p>
+    </footer>
+   
+</body>
+<script src="script.js"></script>
+</html>

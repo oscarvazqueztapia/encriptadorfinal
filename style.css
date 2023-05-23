@@ -1,0 +1,103 @@
+body{
+    background-image: url("Screenshot_20230512-122739~2.png");
+    
+}
+.logo{
+    width: 10%;
+    border-radius: 10px;
+}
+
+.alura {
+    width: 20%;
+    position: absolute;
+    top: 2%;
+    right: 0;
+}
+header{
+    margin-bottom: 10px;
+    display: flex;
+    font-family: 'Pangolin', cursive;
+    border-radius: 10px;
+    background:linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4))
+}
+
+.encabezado {
+    margin-right: 70px;
+    width: fit-content;
+    font-size: 30px;
+    margin-left: 70px
+}
+/*aqui inicia css de areas de funciones */
+
+.CajasDeTexto{
+
+    padding-top: 10px;
+    margin-left: 30px;
+    width: 50%;
+    display: inline-block;
+    
+}
+.input{
+    background-image: url(Screenshot_20230512-122939-355.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 10px;
+    font-size: 2em;
+    font-style: italic;
+
+}
+.output {
+
+    position: absolute;
+    top: auto;
+    left: 63%;
+    background-image: url(Screenshot_20230511-210345-646.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: none;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.encriptar {
+    width: 180px;
+    height: 45px;
+    color:white;
+    background-color: red;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.desencriptar {
+    width: fit-content;
+    height: 45px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+.copiar{
+    width: 180px;
+    height: 45px;
+    color:white;
+    background-color: red;
+    border-radius: 10px;
+    font-size: xx-large;
+}
+
+footer{
+    border-color: black;
+    border: black;
+    border: 3px;
+    background:linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4));
+    height: 50px;
+    border-radius: 10px;
+    
+}
+.rodapie{
+    text-align: center;
+    width: fit-content;
+    position: absolute;
+    left: 40%;
+}
