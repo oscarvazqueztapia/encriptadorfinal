@@ -66,12 +66,6 @@ function copy(){
     mensaje.value=""
         
 }
-@Media screen and(max-width 480px );{
-
-    .logo{
-        width:7%
-    }
-}
 
     
   
