@@ -1,23 +1,16 @@
 body{
     background-image: url("Screenshot_20230512-122739~2.png");
-    
-}
+    }
 .logo{
-    
-    width: 7%;
+    width: 100px;
     border-radius: 10px;
 }
 
-
 .alura {
-    width: 15%;
-    position: absolute;
-    top: 2%;
-    right: 0;
+    width: auto
 }
 header{
     margin-bottom: 10px;
-    display: flex;
     font-family: 'Pangolin', cursive;
     border-radius: 10px;
     background:linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4))
@@ -25,26 +18,12 @@ header{
 
 .encabezado {
     text-align: center;
-    width: fit-content;
-    position: absolute;
-    left: 35%;
-    margin-right: 70px;
-    
 }
 /*aqui inicia css de areas de funciones */
 
-.CajasDeTexto{
 
-    padding-top: 10px;
-    margin-left: 30px;
-    width: 50%;
-    display: inline-block;
-    
-}
-iframe{
-    vertical-align: top;
-    
-}
+
+
 .input{
     background-image: url(Screenshot_20230512-122939-355.png);
     background-size: 100%;
@@ -56,10 +35,6 @@ iframe{
 
 }
 .output {
-
-    position: absolute;
-    top: auto;
-    left: 63%;
     background-image: url(Screenshot_20230511-210345-646.png);
     background-size: 100%;
     background-repeat: no-repeat;
