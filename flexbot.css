@@ -18,19 +18,17 @@ justify-content: space-between;
 
 
 @media (max-width: 700px){
+    
 
     .cajasDeTexto{
         display: flex;
         flex-direction: column;
     }
-    .input {
-        height: 200px;
-        width: 100%;
+    .botones{
+        display: flex;
     }
-    .output {
-        height: 588px;
-        width: 100%;
-    }
+
+   
 
 
 }

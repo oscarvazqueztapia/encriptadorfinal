@@ -80,6 +80,7 @@ footer{
     
 }
 .rodapie{
+    width: 100%;
     text-align: center;
     width: fit-content;
     position: absolute;
