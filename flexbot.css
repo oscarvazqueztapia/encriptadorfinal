@@ -17,7 +17,7 @@ justify-content: space-between;
 }
 
 
-@media (max-width: 700px){
+@media (max-width: 800px){
     
 
     .cajasDeTexto{
@@ -27,6 +27,12 @@ justify-content: space-between;
     .botones{
         display: flex;
     }
+    .rodapie-container{
+        display: flex;
+        font-size: x-small;
+        
+    }
+
 
    
 

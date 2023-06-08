@@ -10,7 +10,7 @@ body{
     width: auto
 }
 header{
-    margin-bottom: 10px;
+
     font-family: 'Pangolin', cursive;
     border-radius: 10px;
     background:linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4))
@@ -69,21 +69,15 @@ header{
     font-size: xx-large;
 }
 
-
-footer{
-    border-color: black;
-    border: black;
-    border: 3px;
-    background:linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4));
-    height: 50px;
+.rodapie-container{
+    font-family: 'Pangolin', cursive;
     border-radius: 10px;
-    
-}
-.rodapie{
+    background: linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    text-align: center;
-    width: fit-content;
-    position: absolute;
-    left: 35%;
-    font-size: 18px;
+    height: 90px;
+    align-items: center;
 }
+  
