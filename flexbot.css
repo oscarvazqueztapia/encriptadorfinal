@@ -19,6 +19,9 @@ justify-content: space-between;
 
 @media (max-width: 800px){
     
+    header .container {
+        width: 100%;
+    }
 
     .cajasDeTexto{
         display: flex;
