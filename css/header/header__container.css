@@ -1,0 +1,10 @@
+.header__container{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Pangolin', cursive;
+    border-radius: 10px;
+    background:linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4))
+
+}

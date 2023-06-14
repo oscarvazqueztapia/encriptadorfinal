@@ -1,26 +1,9 @@
+
+
+
 body{
     background-image: url("Screenshot_20230512-122739~2.png");
     }
-.logo{
-    width: 100px;
-    border-radius: 10px;
-}
-
-.alura {
-    width: auto
-}
-header{
-
-    font-family: 'Pangolin', cursive;
-    border-radius: 10px;
-    background:linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4))
-}
-
-.encabezado {
-    text-align: center;
-}
-/*aqui inicia css de areas de funciones */
-
 
 
 
@@ -74,10 +57,18 @@ header{
     border-radius: 10px;
     background: linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4));
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    height: 90px;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
     align-items: center;
+    /* padding: 0 0.5rem; */
+    margin-right: 0
+}
+.rodapie{
+    
+    height: 0.2rem;
+    display: flex;
+    align-items: center;
+
 }
   

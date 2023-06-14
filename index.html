@@ -4,40 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css\header\header__container.css">
+    <link rel="stylesheet" href="css/header/header__logo_alura.css">
+    <link rel="stylesheet" href="css\header\header__logo_mario.css">
+    <link rel="stylesheet" href="css\header\header__titulo.css">
+    
     <link href="flexbot.css"  rel="stylesheet">
     <title>Encriptador resposivo</title>
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="header__container">
         <div>
-            <img class = "logo" src="Screenshot_20230511-210543~2.png" alt="logo super Mario">
+            <img class = "header__logo_mario" src="Screenshot_20230511-210543~2.png" alt="logo super Mario">
         </div>        
-        <div class="encabezado">
+        <div class="header__titulo">
             <h1>Alura conoce a Mario Bros.</h1>
         </div>
         <div>
-            <img class = "alura" src="Logo-2.png" alt="logo alura">
+            <img class = "header__alura_logo" src="Logo-2.png" alt="logo alura">
         </div>
         </div>
     </header>
     <main>
         <div class="cajasDeTexto">
             <div class="input-botones">
-                <textarea class="input" cols="40" rows="10" type="text" value="" placeholder="ingrese su texto en esta area" style="height: 401px; width: 527px;"></textarea>
+                <textarea class="input" cols="40" rows="10" type="text" value="" placeholder="ingrese su texto en esta area" style="height: 286px; width: 100vw;"></textarea>
+                <div>&#42510; solo letras minusculas,no numeros,no simbolos</div>
                 <div class="botones">
-                    <div>&#42510; solo letras minusculas,no numeros,no simbolos</div>
+                   
                     <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
                     <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                 </div>
             </div>
             <div class="output-boton">
-                <textarea class="output" cols="40" rows="10" style="height: 398px; width: 254px;"></textarea> 
+                <textarea class="output" cols="40" rows="10" style="height: 587px; width: 100vw;"></textarea> 
                 <button class="copiar" onclick="copy()">Copiar</button>
             </div>
         </div>
