@@ -2,7 +2,7 @@
 
 
 
-const textArea = document.querySelector(".input");
+const textArea = document.querySelector(".cajasDeTexto__input");
 const mensaje = document.querySelector(".output");
 
 textArea.addEventListener('input', function(){

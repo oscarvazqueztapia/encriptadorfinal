@@ -1,9 +1,13 @@
 
 
-
 body{
     background-image: url("Screenshot_20230512-122739~2.png");
     }
+    .cajasDeTexto.css{
+
+        display: flex;
+        flex-direction: row;
+    }    
 
 
 

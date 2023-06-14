@@ -13,8 +13,13 @@
     <link rel="stylesheet" href="css/header/header__logo_alura.css">
     <link rel="stylesheet" href="css\header\header__logo_mario.css">
     <link rel="stylesheet" href="css\header\header__titulo.css">
-    
-    <link href="flexbot.css"  rel="stylesheet">
+    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto.css">
+    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto__input.css">
+    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto__input-botones.css">
+    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto__botones.css">
+    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto__aviso.css">
+    <link rel="stylesheet" href="flexbot.css">
+
     <title>Encriptador resposivo</title>
 </head>
 
@@ -33,12 +38,12 @@
         </div>
     </header>
     <main>
-        <div class="cajasDeTexto">
-            <div class="input-botones">
-                <textarea class="input" cols="40" rows="10" type="text" value="" placeholder="ingrese su texto en esta area" style="height: 286px; width: 100vw;"></textarea>
-                <div>&#42510; solo letras minusculas,no numeros,no simbolos</div>
-                <div class="botones">
-                   
+        <section class="cajasDeTexto">
+            <div class="cajasDeTexto__input-botones">
+                <textarea class="cajasDeTexto__input" cols="40" rows="10" type="text" value="" placeholder="ingrese su texto en esta area" style="height: 286px; width: 100vw;">
+                </textarea>
+                <div class="cajasDeTexto__aviso">&#42510; solo letras minusculas,no numeros,no simbolos</div>
+                <div class="cajasDeTexto__botones">
                     <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
                     <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                 </div>
@@ -47,7 +52,7 @@
                 <textarea class="output" cols="40" rows="10" style="height: 587px; width: 100vw;"></textarea> 
                 <button class="copiar" onclick="copy()">Copiar</button>
             </div>
-        </div>
+        </section>
         
     </main>
     <footer>
