@@ -13,12 +13,9 @@
     <link rel="stylesheet" href="css/header/header__logo_alura.css">
     <link rel="stylesheet" href="css\header\header__logo_mario.css">
     <link rel="stylesheet" href="css\header\header__titulo.css">
-    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto.css">
-    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto__input.css">
-    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto__input-botones.css">
-    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto__botones.css">
-    <link rel="stylesheet" href="css\cajasDeTexto\cajasDeTexto__aviso.css">
-    <link rel="stylesheet" href="flexbot.css">
+    <link rel="stylesheet" href="css\header\cajas\cajasDeTexto__botones.css">
+    <link rel="stylesheet" href="css\cajasDeTexto__input_label.css">
+    <link rel="stylesheet" href="css\cajasDeTexto__instrucciones.css">
 
     <title>Encriptador resposivo</title>
 </head>
@@ -39,17 +36,28 @@
     </header>
     <main>
         <section class="cajasDeTexto">
-            <div class="cajasDeTexto__input-botones">
-                <textarea class="cajasDeTexto__input" cols="40" rows="10" type="text" value="" placeholder="ingrese su texto en esta area" style="height: 286px; width: 100vw;">
+            <div class="cajasDeTexto__inputybotones">
+                <label for="input" class="cajasDeTexto__input_label">Ingresa tu texto aqui</label>
+                <textarea class="cajasDeTexto__input" id="input" cols="40" rows="10" type="text"  style="height: 431px; width: 277px;">
                 </textarea>
-                <div class="cajasDeTexto__aviso">&#42510; solo letras minusculas,no numeros,no simbolos</div>
+                <div ><P class="cajasDeTexto__aviso">&#42510; solo letras minusculas,no numeros,no simbolos </P></div>
                 <div class="cajasDeTexto__botones">
                     <button class="encriptar" onclick="btnEncriptar()">Encriptar</button>
                     <button class="desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
                 </div>
             </div>
+            <div class="cajasDeTexto__instrucciones">
+                <p>Uso del encriptador :</p>
+                <p> 1.- En el area en blanco introduce el texto para encriptar/desencriptar 
+                <p> 2.- Presiona el boton con la accion a realizar (encriptar/desencriptar)</p>
+                <p> 3.- El resultado aparecera en la segunda ventana </p>
+                <p> 4.- Si necesitas revertir el proceso , presiona el boton copiar en la segunda 
+                        ventana</p>  
+                <p> 5.- Pegalo en la primera , selecciona el boton para realizar
+                        la accion deseada</p>
+            </div>
             <div class="output-boton">
-                <textarea class="output" cols="40" rows="10" style="height: 587px; width: 100vw;"></textarea> 
+                <textarea class="output" cols="40" rows="10" style="height: 431px; width: 277px;"></textarea> 
                 <button class="copiar" onclick="copy()">Copiar</button>
             </div>
         </section>

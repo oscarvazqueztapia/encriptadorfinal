@@ -2,25 +2,35 @@
 
 body{
     background-image: url("Screenshot_20230512-122739~2.png");
+    background-repeat: repeat;
     }
-    .cajasDeTexto.css{
-
+   
+    .output-boton{
         display: flex;
-        flex-direction: row;
-    }    
+        flex-direction: column;
+    }
+    .cajasDeTexto__inputybotones{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.5rem;
+        width: 300px;
+    }
+    .cajasDeTexto{
+        display: flex;
+        justify-content: space-evenly;
+    }
 
 
-
-.input{
-    background-image: url(Screenshot_20230512-122939-355.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
+.cajasDeTexto__input{
+    
+    color: black;      
     border: none;
     border-radius: 10px;
     font-size: 2em;
     font-style: italic;
 
 }
+
 .output {
     background-image: url(Screenshot_20230511-210345-646.png);
     background-size: 100%;
@@ -29,6 +39,7 @@ body{
     border: none;
     font-size: 2em;
     font-style: italic;
+    margin-top: 4.8rem;
 }
 
 .encriptar {
@@ -54,6 +65,7 @@ body{
     background-color: red;
     border-radius: 10px;
     font-size: xx-large;
+    margin-top: 29px;
 }
 
 .rodapie-container{
