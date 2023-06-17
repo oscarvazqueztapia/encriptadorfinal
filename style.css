@@ -5,23 +5,26 @@ body{
     background-repeat: repeat;
     }
    
-    .output-boton{
+.output-boton{
         display: flex;
         flex-direction: column;
     }
-    .cajasDeTexto__inputybotones{
+.cajasDeTexto__inputybotones{
         display: flex;
         flex-direction: column;
         margin-top: 3.5rem;
         width: 300px;
     }
-    .cajasDeTexto{
+.cajasDeTexto{
         display: flex;
         justify-content: space-evenly;
     }
+ 
 
+    
 
 .cajasDeTexto__input{
+    
     
     color: black;      
     border: none;
@@ -69,6 +72,7 @@ body{
 }
 
 .rodapie-container{
+
     font-family: 'Pangolin', cursive;
     border-radius: 10px;
     background: linear-gradient(rgb(202, 4, 4),rgb(122, 4, 4));
@@ -77,8 +81,7 @@ body{
     width: 100vw;
     height: 50px;
     align-items: center;
-    /* padding: 0 0.5rem; */
-    margin-right: 0
+    margin-right: 0;
 }
 .rodapie{
     
@@ -86,5 +89,44 @@ body{
     display: flex;
     align-items: center;
 
+}
+@media screen and (max-width:768px){
+    .output {
+        height: 40rem;
+        background-image: url(Screenshot_20230511-210345-646.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        border: none;
+        font-size: 2em;
+        font-style: italic;
+        margin-top: 4.8rem;
+        
+    }
+    .cajasDeTexto__inputybotones{
+        display: flex;
+        flex-direction: column;
+        margin-top: 3.5rem;
+        height: 26rem;
+        width: 100vw
+        
+    }
+    .cajasDeTexto{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+
+    .cajasDeTexto__input{
+        
+        height: 20rem;
+        color: black;      
+        border: none;
+        border-radius: 10px;
+        font-size: 2em;
+        font-style: italic;
+
+    }
 }
   

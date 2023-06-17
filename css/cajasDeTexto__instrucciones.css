@@ -6,3 +6,15 @@
     display: grid;
 
 }
+@media screen and (max-width: 768px){
+
+    .cajasDeTexto__instrucciones{
+        font-family: 'Pangolin', cursive;
+    width: 22rem;
+    align-content: center;
+    display: grid;
+
+
+    }
+    
+}
